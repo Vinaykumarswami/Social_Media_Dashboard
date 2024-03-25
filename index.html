@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="dist/css/style.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="container">
+       
+        <div class="header__container">
+          <div class="header__title">
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers: 23,004</p>
+          </div>
+          
+
+          <hr />
+
+          <div class="theme">
+            <p class="theme__name">Dark Mode</p>
+            <input type="checkbox" class="theme__switch" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="section container">
+          <div class="grid">
+            <article class="social facebook flow-content">
+              <div class="social__iconHero">
+                <img src="./images/icon-facebook.svg" alt="facebook logo" class="spacer">
+                <p class="text-lighter text-lighter--bold">@vinay_kumar_swami</p>
+              </div>
+
+              <div class="social__followers">
+                <h2 class="text-Xlarge counter" data-target="1987"></h2>
+                <h4 class="text-medium text-lighter">Followers</h4>
+              </div>
+
+              <div class="social__results">
+                <img src="/images/icon-up.svg" alt="arrow up" class="spacer">
+                <p class="text-green">12 Today</p>
+              </div>
+            </article>
+
+            <article class="social twitter flow-content">
+              <div class="social__iconHero">
+                <img src="./images/icon-twitter.svg" alt="twitter logo" class="spacer">
+                <p class="text-lighter text-lighter--bold">@vinayswami2020</p>
+              </div>
+
+              <div class="social__followers">
+                <h2 class="text-Xlarge counter" data-target="1044"></h2>
+                <h4 class="text-medium text-lighter">Followers</h4>
+              </div>
+
+              <div class="social__results">
+                <img src="/images/icon-up.svg" alt="arrow up" class="spacer">
+                <p class="text-green">99 Today</p>
+              </div>
+            </article>
+
+            <article class="social instagram flow-content">
+              <div class="social__iconHero">
+                <img src="./images/icon-instagram.svg" alt="instagram logo" class="spacer">
+                <p class="text-lighter text-lighter--bold">@vinay_kumar_swami</p>
+              </div>
+
+              <div class="social__followers">
+                <h4 class="text-Xlarge"><span class=" counter" data-target="11"></span><span class="text-Xlarge">k</span></h4>
+                <h4 class="text-medium text-lighter">Followers</h4>
+              </div>
+
+              <div class="social__results">
+                <img src="/images/icon-up.svg" alt="arrow up" class="spacer">
+                <p class="text-green">1099 Today</p>
+              </div>
+            </article>
+
+            <article class="social youtube flow-content">
+              <div class="social__iconHero">
+                <img src="./images/icon-youtube.svg" alt="youtube logo" class="spacer">
+                <p class="text-lighter text-lighter--bold">vinay kumar swami</p>
+              </div>
+
+              <div class="social__followers">
+                <h2 class="text-Xlarge counter" data-target="8239"></h2>
+                <h4 class="text-medium text-lighter">subscribers</h4>
+              </div>
+
+              <div class="social__results">
+                <img src="/images/icon-down.svg" alt="arrow down" class="spacer">
+                <p class="text-red">144 Today</p>
+              </div>
+            </article>
+          </div>
+      </div>
+
+      <section class="section__overview container">
+          <h2 class="section__title">Overview - Today</h2>
+          <div class="grid">
+            <article class="overview">
+                <h4 class="overview__title text-lighter text-lighter--bold text-lighter text-lighter--bold">Page Views</h4>
+                <img src="./images/icon-facebook.svg" alt="facebook logo" class="overview__logo">
+                <h5 class="overview__status text-large counter" data-target="100"></h5>
+                <div class="overview__info">
+                  <img src="/images/icon-up.svg" alt="arrow up" class="spacer">
+                  <p class="text-green">3%</p>
+                </div>
+            </article>
+            <article class="overview">
+              <h4 class="overview__title text-lighter text-lighter--bold">Likes</h4>
+              <img src="./images/icon-facebook.svg" alt="facebook logo" class="overview__logo">
+              <h5 class="overview__status text-large counter" data-target="60"></h5>
+              <div class="overview__info">
+                <img src="/images/icon-down.svg" alt="arrow down" class="spacer">
+                <p class="text-red">2%</p>
+              </div>
+            </article>
+            <article class="overview">
+              <h4 class="overview__title text-lighter text-lighter--bold">Likes</h4>
+              <img src="./images/icon-instagram.svg" alt="instagram logo" class="overview__logo">
+              <h5 class="overview__status text-large counter" data-target="5000"></h5>
+              <div class="overview__info">
+                <img src="/images/icon-up.svg" alt="arrow up" class="spacer">
+                <p class="text-green">225%</p>
+              </div>
+            </article>
+            <article class="overview">
+              <h4 class="overview__title text-lighter text-lighter--bold">Profile Views</h4>
+              <img src="./images/icon-instagram.svg" alt="instagram logo" class="overview__logo">
+              <h5 class="overview__status text-large"><span class="counter" data-target="520"></span><span>k</span></h5>
+              <div class="overview__info">
+                <img src="/images/icon-up.svg" alt="arrow up" class="spacer">
+                <p class="text-green">137%</p>
+              </div>
+            </article>
+            <article class="overview">
+              <h4 class="overview__title text-lighter text-lighter--bold">Retweets</h4>
+              <img src="./images/icon-twitter.svg" alt="twitter logo" class="overview__logo">
+              <h5 class="overview__status text-large counter" data-target="117"></h5>
+              <div class="overview__info">
+                <img src="/images/icon-up.svg" alt="arrow up" class="spacer">
+                <p class="text-green">30%</p>
+              </div>
+            </article>
+            <article class="overview">
+              <h4 class="overview__title text-lighter text-lighter--bold">Likes</h4>
+              <img src="./images/icon-twitter.svg" alt="twitter logo" class="overview__logo">
+              <h5 class="overview__status text-large counter" data-target="507"></h5>
+              <div class="overview__info">
+                <img src="/images/icon-up.svg" alt="arrow up" class="spacer">
+                <p class="text-green">55%</p>
+              </div>
+            </article>
+            <article class="overview">
+              <h4 class="overview__title text-lighter text-lighter--bold">Page Views</h4>
+              <img src="./images/icon-youtube.svg" alt="youtube logo" class="overview__logo">
+              <h5 class="overview__status text-large counter" data-target="107"></h5>
+              <div class="overview__info">
+                <img src="/images/icon-down.svg" alt="arrow down" class="spacer">
+                <p class="text-red">19%</p>
+              </div>
+            </article>
+            <article class="overview">
+              <h4 class="overview__title text-lighter text-lighter--bold">Total Views</h4>
+              <img src="./images/icon-youtube.svg" alt="youtube logo" class="overview__logo">
+              <h5 class="overview__status text-large counter" data-target="1407"></h5>
+              <div class="overview__info">
+                <img src="/images/icon-down.svg" alt="arrow down" class="spacer">
+                <p class="text-red">12%</p>
+              </div>
+            </article>
+          </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Vinaykumarswami" target="_blank">vinay kumar swami</a>.
+    </div>
+     <!-- Script -->
+     <script src="js/app.js"></script>
+  </body>
+</html>
